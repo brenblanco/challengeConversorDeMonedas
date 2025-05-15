@@ -2,7 +2,7 @@
 
 Este proyecto es una aplicación sencilla que permite convertir valores entre distintas monedas utilizando una API externa para obtener las tasas de cambio en tiempo real.
 
-🚀 Tecnologías utilizadas Java 17
+🚀 Tecnologías utilizadas Java 22
 
 IntelliJ IDEA
 
