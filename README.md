@@ -2,39 +2,54 @@
 
 Este proyecto es una aplicación sencilla que permite convertir valores entre distintas monedas utilizando una API externa para obtener las tasas de cambio en tiempo real.
 
-🚀 Tecnologías utilizadas Java 22
-
-IntelliJ IDEA
-
-API: ExchangeRate API (o la que estés usando)
-
-Librerías: GSON 2.13.0
-
-🧠 Funcionalidades Conversión entre monedas (por ejemplo: USD a EUR, ARS a BRL, etc.)
-
+## 🚀 Características
 Menú interactivo para seleccionar monedas y monto
          === Conversor de Monedas ===
-   1. Hacer conversión de moneda
-   2. Ver listado actual de monedas
-   3. Agregar una moneda al listado
-   4. Eliminar una moneda al listado
-   5. Ver historial de conversiones
-   6. Salir
-      Seleccione una opción: 
+1- Conversión de montos entre monedas.
+2- Validación de monedas de origen y destino.
+3- Gestión de lista de monedas: ver, agregar y eliminar.
+4- Registro de historial de conversiones en formato JSON.
+5- Exportación de monedas guardadas a archivo `.txt` (formato JSON legible).
+6- Interfaz de texto interactiva para el usuario.
+  
+## 🛠️ Tecnologías y dependencias
+
+- **Java 22**
+- API: ExchangeRate API (https://www.exchangerate-api.com/)
+- Librerías: GSON 2.13.0 para manejo de archivos JSON
+- IntelliJ IDEA
+- 
+## 📂 Estructura del proyecto
+
+ConversorMonedas/
+│
+├── src/
+│ ├── Main.java
+│ ├── ConversorMoneda.java
+│ ├── MonedaManager.java
+│ ├── Historial.java
+│ └── HistorialManager.java
+│
+├── data/
+│ ├── monedas.json
+│ └── historial.json
+│
+└── README.md
 
 
-Validación de entrada del usuario
+## 📋 Requisitos
 
-Respuesta amigable con el resultado de la conversión
+- JDK 22 instalado
+- Conexión a internet (para acceder a la API)
 
-⚙️ Instalación y uso Cloná el repositorio:
+## ⚙️ Ejecución
 
-git clone https://github.com/brenblanco/conversor-monedas.git Abrilo en tu IDE favorito (IntelliJ recomendado).
-
+1. Clonar el repositorio:
+     git clone https://github.com/tu-usuario/conversor-monedas-java.git
+  
 Ejecutá el archivo Principal.java.
 
 Seguí las instrucciones en consola.
 
-📌 Estado del proyecto ✅ Funcionalidad básica implementada 🔜 En desarrollo mejoras de interfaz y control de errores
 
 🙋‍♀️ Autor Brenda — Desarrolladora Backend Jr LinkedIn | GitHub
