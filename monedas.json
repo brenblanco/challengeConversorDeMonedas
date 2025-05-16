@@ -1,0 +1,37 @@
+{
+  "ARS": {
+    "codeCurrency": "ARS",
+    "currencyName": "Peso argentino",
+    "Country": "Argentina"
+  },
+  "BOB": {
+    "codeCurrency": "BOB",
+    "currencyName": "Boliviano boliviano",
+    "Country": "Bolivia"
+  },
+  "BRL": {
+    "codeCurrency": "BRL",
+    "currencyName": "Real brasileño",
+    "Country": "Brasil"
+  },
+  "CLP": {
+    "codeCurrency": "CLP",
+    "currencyName": "Peso chileno",
+    "Country": "Chile"
+  },
+  "COP": {
+    "codeCurrency": "COP",
+    "currencyName": "Peso colombiano",
+    "Country": "Colombia"
+  },
+  "USD": {
+    "codeCurrency": "USD",
+    "currencyName": "Dólar estadounidense",
+    "Country": "Estados Unidos"
+  },
+  "PEN": {
+    "codeCurrency": "PEN",
+    "currencyName": "soles peruanos",
+    "Country": "Perú"
+  }
+}
